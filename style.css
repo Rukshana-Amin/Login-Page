@@ -1,0 +1,104 @@
+body{
+    background-color: #A95FF0;}
+
+    form{
+        background-color:#ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        border-radius: 5px;
+        width: 25%;
+        height: 70%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 80px;
+}
+    
+
+* {box-sizing: border-box}
+h1 {color : Black; }
+p {color: grey; }
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 10px;
+    border-radius: 5px;
+    background: #ffffff;
+    outline-style:ridge;
+    outline-width: 1px;
+    outline-color: rgb(154, 154, 154);
+
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline:none;
+  }
+  
+
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #893DFF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the google button */
+  .Googlebtn {
+    padding: 12px 25px;
+    background-color: #ffffff;
+    color: #D19591;
+    border-style: solid;
+    border-color: #d19591;
+    border-radius: 5px;
+
+
+  }
+
+  .Facebookbtn {
+    padding: 12px 25px;
+    background-color: #ffffff;
+    color: blue;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+
+  }
+  
+  /* Float google and facebook buttons and add an equal width */
+  .Googlebtn{
+    float: left;
+    width: 45%;
+  } 
+  .Facebookbtn {
+    float:right;
+    width: 45%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+
